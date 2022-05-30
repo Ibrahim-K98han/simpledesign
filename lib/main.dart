@@ -61,16 +61,16 @@ void main() {
                     ),
                     Column(
                       children: [
-                        Icon(Icons.share,color: Colors.grey,size: 30,),
+                        Icon(Icons.person,color: Colors.grey,size: 30,),
                         SizedBox(height: 10,),
-                        Text('SHARE',style: TextStyle(fontSize: 15,color: Colors.grey,),)
+                        Text('PERSON',style: TextStyle(fontSize: 15,color: Colors.grey,),)
                       ],
                     ),
                     Column(
                       children: [
-                        Icon(Icons.share,color: Colors.grey,size: 30,),
+                        Icon(Icons.title,color: Colors.grey,size: 30,),
                         SizedBox(height: 10,),
-                        Text('SHARE',style: TextStyle(fontSize: 15,color: Colors.grey,),)
+                        Text('Title',style: TextStyle(fontSize: 15,color: Colors.grey,),)
                       ],
                     )
                   ],
@@ -93,37 +93,37 @@ void main() {
                 ),
                 Row(
                   children: [
-                    Icon(Icons.place, color: Colors.grey,),
-                    Text('Location '),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+                    Icon(Icons.place, color: Colors.grey, size: 30,),
+                    Text('Location ', style: TextStyle(fontSize: 18),),
+                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18),),
                   ],
                 ),
                 Row(
                   children: [
-                    Icon(Icons.person, color: Colors.grey,),
-                    Text('Location '),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+                    Icon(Icons.person, color: Colors.grey, size: 30,),
+                    Text('Location ', style: TextStyle(fontSize: 18),),
+                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18),),
                   ],
                 ),
                 Row(
                   children: [
-                    Icon(Icons.add, color: Colors.grey,),
-                    Text('Location '),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+                    Icon(Icons.add, color: Colors.grey,size: 30,),
+                    Text('Location ', style: TextStyle(fontSize: 18)),
+                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18),),
                   ],
                 ),
                 Row(
                   children: [
-                    Icon(Icons.location_city, color: Colors.grey,),
-                    Text('Location '),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+                    Icon(Icons.location_city, color: Colors.grey,size: 30,),
+                    Text('Location ', style: TextStyle(fontSize: 18)),
+                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,fontSize: 18),),
                   ],
                 ),
                 Row(
                   children: [
-                    Icon(Icons.location_city, color: Colors.grey,),
-                    Text('Location '),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),),
+                    Icon(Icons.location_city, color: Colors.grey,size: 30,),
+                    Text('Location ', style: TextStyle(fontSize: 18)),
+                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,fontSize: 18),),
                   ],
                 ),
               ],
@@ -139,7 +139,7 @@ void main() {
                    onPrimary: Colors.white,
                  ),
                  onPressed: () { },
-                 child: Text('ElevatedButto'),
+                 child: Text('Click Me'),
                )
              ],
            ),
