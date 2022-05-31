@@ -139,7 +139,7 @@ void main() {
              children: [
                ElevatedButton(
                  style: ElevatedButton.styleFrom(
-                   padding: EdgeInsets.all(20),
+                   padding: EdgeInsets.all(10),
                    primary: Colors.red,
                    onPrimary: Colors.white,
                  ),
