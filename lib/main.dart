@@ -40,37 +40,37 @@ void main() {
                   children: [
                     Column(
                       children: [
-                        Icon(Icons.call,color: Colors.grey,size: 30,),
+                        Icon(Icons.person,color: Colors.grey,size: 30,),
                         SizedBox(height: 10,),
-                        Text('CALL',style: TextStyle(fontSize: 15,color: Colors.grey),)
+                        Text('Profile',style: TextStyle(fontSize: 15,color: Colors.grey),)
                       ],
                     ),
                     Column(
                       children: [
-                        Icon(Icons.near_me,color: Colors.grey,size: 30,),
+                        Icon(Icons.home,color: Colors.grey,size: 30,),
                         SizedBox(height: 10,),
-                        Text('ROUTE',style: TextStyle(fontSize: 15,color: Colors.grey,),)
+                        Text('Home',style: TextStyle(fontSize: 15,color: Colors.grey,),)
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Icon(Icons.details,color: Colors.grey,size: 30,),
+                        SizedBox(height: 10,),
+                        Text('About',style: TextStyle(fontSize: 15,color: Colors.grey,),)
                       ],
                     ),
                     Column(
                       children: [
                         Icon(Icons.share,color: Colors.grey,size: 30,),
                         SizedBox(height: 10,),
-                        Text('SHARE',style: TextStyle(fontSize: 15,color: Colors.grey,),)
+                        Text('Share',style: TextStyle(fontSize: 15,color: Colors.grey,),)
                       ],
                     ),
                     Column(
                       children: [
-                        Icon(Icons.person,color: Colors.grey,size: 30,),
+                        Icon(Icons.web,color: Colors.grey,size: 30,),
                         SizedBox(height: 10,),
-                        Text('PERSON',style: TextStyle(fontSize: 15,color: Colors.grey,),)
-                      ],
-                    ),
-                    Column(
-                      children: [
-                        Icon(Icons.title,color: Colors.grey,size: 30,),
-                        SizedBox(height: 10,),
-                        Text('Title',style: TextStyle(fontSize: 15,color: Colors.grey,),)
+                        Text('Website',style: TextStyle(fontSize: 15,color: Colors.grey,),)
                       ],
                     )
                   ],
@@ -80,13 +80,13 @@ void main() {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(top: 15,left: 20),
+            padding: EdgeInsets.only(top: 10,left: 20),
             child: Column(
               children: [
                 Row(
                   children: [
                     Padding(
-                      padding: EdgeInsets.only(left: 15,bottom: 15),
+                      padding: EdgeInsets.only(left: 15,bottom: 10),
                       child: Text('Basic Info',style: TextStyle(color: Colors.red,fontSize: 30),),
                     )
                   ],
@@ -94,52 +94,57 @@ void main() {
                 Row(
                   children: [
                     Icon(Icons.place, color: Colors.grey, size: 30,),
-                    Text('Location ', style: TextStyle(fontSize: 18),),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18),),
+                    Text('Live in ', style: TextStyle(fontSize: 18,color: Colors.grey),),
+                    Text('Demra Dhaka',style: TextStyle(color: Colors.black, fontSize: 18),),
                   ],
                 ),
+                SizedBox(height: 10,),
                 Row(
                   children: [
-                    Icon(Icons.person, color: Colors.grey, size: 30,),
-                    Text('Location ', style: TextStyle(fontSize: 18),),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18),),
+                    Icon(Icons.shopping_bag, color: Colors.grey, size: 30,),
+                    Text('App Development at ', style: TextStyle(fontSize: 18,color: Colors.grey),),
+                    Text('bitBirds Solution',style: TextStyle(color: Colors.black, fontSize: 18),),
                   ],
                 ),
+                SizedBox(height: 10,),
                 Row(
                   children: [
-                    Icon(Icons.add, color: Colors.grey,size: 30,),
-                    Text('Location ', style: TextStyle(fontSize: 18)),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 18),),
+                    Icon(Icons.school, color: Colors.grey,size: 30,),
+                    Text('Graduate from ', style: TextStyle(fontSize: 18, color: Colors.grey)),
+                    Text('BUBT',style: TextStyle(color: Colors.black, fontSize: 18),),
                   ],
                 ),
+                SizedBox(height: 10,),
                 Row(
                   children: [
-                    Icon(Icons.location_city, color: Colors.grey,size: 30,),
-                    Text('Location ', style: TextStyle(fontSize: 18)),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,fontSize: 18),),
+                    Icon(Icons.school, color: Colors.grey,size: 30,),
+                    Text('Diploma from ', style: TextStyle(fontSize: 18, color: Colors.grey)),
+                    Text('AITVET',style: TextStyle(color: Colors.black,fontSize: 18),),
                   ],
                 ),
+                SizedBox(height: 10,),
                 Row(
                   children: [
-                    Icon(Icons.location_city, color: Colors.grey,size: 30,),
-                    Text('Location ', style: TextStyle(fontSize: 18)),
-                    Text('Location',style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,fontSize: 18),),
+                    Icon(Icons.language, color: Colors.grey,size: 30,),
+                    Text('Language ', style: TextStyle(fontSize: 18,color: Colors.grey)),
+                    Text('Bangla,English',style: TextStyle(color: Colors.black,fontSize: 18),),
                   ],
                 ),
               ],
             ),
           ),
          Padding(
-           padding: EdgeInsets.only(top: 100),
+           padding: EdgeInsets.only(top: 60),
            child: Column(
              children: [
                ElevatedButton(
                  style: ElevatedButton.styleFrom(
+                   padding: EdgeInsets.all(20),
                    primary: Colors.red,
                    onPrimary: Colors.white,
                  ),
                  onPressed: () { },
-                 child: Text('Click Me'),
+                 child: Text('Save'),
                )
              ],
            ),
